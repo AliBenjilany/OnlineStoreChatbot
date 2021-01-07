@@ -1,0 +1,54 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through customer support contact , opening hours, stores location , catalogue, employment", "Offering support for customer opening hours, support contact ,stores location ,catalogue , employment"],
+         "context": [""]
+        },
+        {"tag": "contact",
+         "patterns": ["What is you email?", "What is the customer number ?" , "How can I contact you ?" ],
+         "responses": ["Phone numbers: ... \nEmail: ... \n"],
+         "context": [""]
+        },
+        {"tag": "opening_hours",
+         "patterns": ["How early do you open?","What time do stores close?", "What are your opening hours?" ],
+         "responses": ["9AM - 9PM"],
+         "context": [""]
+        },
+        {"tag": "location",
+         "patterns": ["Where are you located?", "Go to your store", "Stores nearby please" , "Locate store", "Search store"],
+         "responses": ["Boulevard Anfa, Casablanca ", "Avenue Mohamed 5, Rabat" , "Avenue Guéliz, Marrakech" , "Avenue de la marche verte, Laayoune" , ""],
+         "context": [""]
+        },
+
+        {"tag": "employment",
+        "patterns": ["Hire me please", "can I join you ?" , "I am looking for a job and would like to know if you have anything available.." ],
+        "responses": ["Send us your resume and cover letter","You can apply for the coming holidays job vacancies"],
+        "context": [""]
+        },
+        {"tag": "products",
+        "patterns": ["Catalogue look" , "any new products ?","what does your business sell?" , "What kind of products can i buy from your store ?" ],
+        "responses": ["Here's a link to our catalogue : */catalogue.php"],
+        "context": [""]
+        }
+   ]
+}
